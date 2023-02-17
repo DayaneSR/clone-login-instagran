@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #fff;
+    text-align: center;
+}
+
+.container{
+    border: 1px solid rgb(200, 196, 196);
+    height: 550px;
+    margin: auto;
+    margin-top: 2em;
+    width: 500px;
+    padding-bottom: 1em;
+}
+.logo-insta img{
+    margin: 4em 0 1em 0;
+    width: 250px;
+}
+#user, #password{
+    border: 1px solid rgb(200, 196, 196);
+    padding: 0.6em;
+    margin: 0.5em;
+    border-radius: 1px;
+    width: 70%;
+    font-size: 18px;
+}
+.logar{
+    width: 75%;
+    padding: 0.8em;
+    background-color:rgb(87, 170, 215);   
+    border:transparent;
+    border-radius: 7px;
+    color: #fff;
+    font-weight: bold;
+    margin: 1em auto;
+    font-size: 18px;
+}
+.separador {
+    font-size: 26px;
+    text-align: center;
+    color: rgb(147, 143, 143);
+}
+.separador::before{
+    content: '';
+    position: absolute;
+    height: 1px ;
+    width: 150px;
+    background-color: rgb(191, 191, 191);
+    margin-top: 15px;
+    margin-left: -175px;
+}
+.separador::after{
+    content: '';
+    position: absolute;
+    height: 1px ;
+    width: 150px;
+    background-color: rgb(191, 191, 191);
+    margin-top: 15px;
+    margin-left: 20px;
+}
+
+.login-facebook{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    color: #385185;
+    font-size: 22px;
+    font-weight: bold;
+    margin: 1em;
+}
+
+.login-facebook img{
+    width: 25px;
+    margin-right: 0.5em;
+}
+.forgot-password{
+    color: #385185;
+    text-decoration: none;
+    font-size: 22px;
+}
+.inscrever{
+    border: 1px solid rgb(200, 196, 196);;
+    display: flex;
+    justify-content:center;
+    margin: auto;
+    width: 430px;
+    padding: 1.80em;
+    margin-top: 2em;
+    margin-bottom: 1em;
+    font-size: 22px;
+}
+.inscrever a{
+    text-decoration: none;
+    color: rgb(33, 163, 233);
+    font-weight: bold;
+}
+.app p{
+    text-align: center; 
+    font-size: 22px;
+    
+}
+.links{
+    display: flex;
+    justify-content: center;
+    margin: 1em 0 3em 0;
+}
+.links img{
+    width: 200px;
+    margin: 0.5em;
+}
+.rodape{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    margin: 4em 3em;
+}
+.rodape-links a{
+    text-decoration: none;
+    color: rgb(147, 143, 143);
+    font-size: 20px;
+    margin: 0.4em;
+    line-height: 2em;
+}
+.rodape p{
+    display: block;
+    text-align: center;
+    font-size: 22px;
+    color: rgb(147, 143, 143);
+    margin-top: 1em;
+
+}
